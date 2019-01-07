@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.version     = NLexchAPI::Client::VERSION
   s.authors     = ["Amarian12"]
   s.email       = ["info@nlexch.com"]
-  s.homepage    = "https://github.com/nlexch/nlexch-client-ruby"
+  s.homepage    = "https://github.com/MassICTBV/nlexch-client-ruby"
   s.summary     = "A ruby client to access NLexch's API."
   s.description = "A ruby client which can access all NLexch's API."
   s.license     = 'MIT'
