@@ -52,7 +52,7 @@ Use `#get` or `#post` to access API after you created a `NLexchAPI::Client`:
   client.post '/api/v2/orders/multi', market: 'ltcbtc', orders: [{side: 'buy', volume: '0.15', price: '2955.0'}, {side: 'sell', volume: '0.16', price: '2956'}]
 ```
 
-Check [NLexch API v2 Documents](https://www.nlexch.com/documents/api_v2) for details on NLexch API.
+Check [NLexch API v2 Documents](https://www.nlexch.com/documents/api-v2) for details on NLexch API.
 
 ### Streaming API client ###
 
