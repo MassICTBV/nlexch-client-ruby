@@ -61,7 +61,7 @@ Streaming API client is built upon eventmachine, it will start an endless loop t
 ```ruby
   require 'nlexch_client'
 
-  client = NLexchAPI::StreamingClient.new access_key: 'your_access_key', secret_key: 'your_secret_key', endpoint: 'wss://www.nlexch.com:8080'
+  client = NLexchAPI::StreamingClient.new access_key: 'your_access_key', secret_key: 'your_secret_key', endpoint: 'wss://www.nlexch.com:2096'
   client.run do |message|
     # do whatever you want with message
   end
