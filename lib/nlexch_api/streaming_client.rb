@@ -8,7 +8,7 @@ module NLexchAPI
 
     def initialize(options={})
       super
-      @endpoint = options[:endpoint] || 'wss://www.nlexch.com:8080'
+      @endpoint = options[:endpoint] || 'wss://www.nlexch.com:2096'
       @logger   = options[:logger] || Logger.new(STDOUT)
     end
 
